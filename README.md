@@ -1,4 +1,4 @@
-# assessment-streak
+# GO-streak
 
 This application has exposed endpoint : **/api/v1/find-pairs**
 
