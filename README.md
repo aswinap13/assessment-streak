@@ -1,5 +1,4 @@
 # assessment-streak
-This repo golang application developed as a part of assessment
 
 This application has exposed endpoint : **/api/v1/find-pairs**
 
