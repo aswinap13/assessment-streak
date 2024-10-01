@@ -16,10 +16,7 @@ func SetupRouter() *gin.Engine {
 	//Group new routes accordingly
 	v1 := r.Group("/api/v1")
 	{
-		arrays := v1.Group("/arrays")
-		{
-			arrays.POST("/find-pairs", arrayHandler.FindPairsWithSum)
-		}
+		v1.POST("/find-pairs", arrayHandler.FindPairsWithSum)
 	}
 
 	return r
